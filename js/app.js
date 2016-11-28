@@ -30,3 +30,7 @@ function setupCards(col, cards) {
     	col.createCard(card);
   	})
 }
+
+setTimeout(showHint, 3000);
+  $hidden = $('div.hidden');
+  $hidden.click(function(){$hidden.css('display', 'none')});
